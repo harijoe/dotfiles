@@ -1,0 +1,29 @@
+[user]
+        name = Julien Vallini
+        email = vallinij@gmail.com
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+        ui = true
+[core]
+        editor = vim
+        excludesfile = ~/.gitexcludes
+[push]
+	default = current
+[alias]
+        st = status
+        lg = log -M --decorate --graph
+        ci = commit
+        pur = pull --rebase
+        br = branch
+        co = checkout
+        cm = commit -m
+        oops = commit --amend --no-edit
+        cp = cherry-pick
+        rb = rebase
+[hub]
+        protocol = https
+[credential]
+        helper = osxkeychain
